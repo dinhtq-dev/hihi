@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
-import { 
-  CheckCircle2, 
-  Building2, 
-  Mail, 
-  FileText, 
+import {
+  CheckCircle2,
+  Building2,
+  Mail,
+  FileText,
   DollarSign,
   ArrowRight,
   Shield,
@@ -179,9 +179,9 @@ export function ServicedOfficePage() {
             <div className="relative group order-2 lg:order-1">
               <div className="absolute -inset-4 bg-gradient-to-br from-[var(--color-primary)] to-blue-500 rounded-2xl opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500"></div>
               <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-                <ImageWithFallback 
-                  src="https://images.unsplash.com/photo-1674981208693-de5a9c4c4f44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" 
-                  alt="Virtual Office Services" 
+                <ImageWithFallback
+                  src="https://images.unsplash.com/photo-1674981208693-de5a9c4c4f44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+                  alt="Virtual Office Services"
                   className="w-full h-auto transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -197,19 +197,19 @@ export function ServicedOfficePage() {
               <h1 className="text-[#2C2C2C] font-bold text-2xl md:text-5xl lg:text-6xl mb-6 leading-tight">
                 Get a Legal Business Address Without a Physical Office
               </h1>
-              
+
               <p className="text-[#6C757D] text-base lg:text-xl leading-relaxed mb-8">
                 Our Virtual Office services provide a compliant registered address for company incorporation, banking and ongoing legal requirements.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button 
+                <button
                   onClick={() => navigate('/contact')}
                   className="bg-[var(--color-primary)] text-white px-8 py-4 rounded-xl hover:opacity-90 transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl"
                 >
                   Consult My Virtual Office Setup
                 </button>
-                <button 
+                <button
                   onClick={() => navigate('/jurisdictions')}
                   className="bg-white text-[var(--color-primary)] px-8 py-4 rounded-xl border-2 border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-all duration-300 font-semibold text-lg shadow-lg"
                 >
@@ -227,9 +227,9 @@ export function ServicedOfficePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left: Image */}
             <div className="relative">
-              <ImageWithFallback 
-                src="https://images.unsplash.com/photo-1674981208693-de5a9c4c4f44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" 
-                alt="Why Virtual Office" 
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1674981208693-de5a9c4c4f44?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+                alt="Why Virtual Office"
                 className="w-full h-auto rounded-xl shadow-lg"
               />
             </div>
@@ -239,7 +239,7 @@ export function ServicedOfficePage() {
               <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6">
                 Why Do Businesses Need a Virtual Office?
               </h2>
-              
+
               <div className="space-y-3">
                 {whyNeeds.map((need, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -259,7 +259,7 @@ export function ServicedOfficePage() {
           <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6">
             What is a Virtual Office?
           </h2>
-          
+
           <p className="text-[#2C2C2C] text-base lg:text-lg mb-6 max-w-4xl">
             A Virtual Office provides a legitimate business address that enables companies to meet legal, banking, and regulatory requirements without maintaining a physical office.
           </p>
@@ -348,9 +348,9 @@ export function ServicedOfficePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left: Image */}
             <div className="relative">
-              <ImageWithFallback 
-                src="figma:asset/e908ef0a99137e019917389c38ccca2f1c5b57ac.png" 
-                alt="Using an EIN" 
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+                alt="Using an EIN"
                 className="w-full h-auto rounded-xl shadow-lg"
               />
               <p className="text-sm text-[#6C757D] mt-2">Using an EIN</p>
@@ -361,7 +361,7 @@ export function ServicedOfficePage() {
               <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6">
                 Virtual Office Services
               </h2>
-              
+
               <p className="text-[#6C757D] text-base lg:text-lg mb-6">
                 Our Virtual Office service provides a legitimate business address to support company incorporation, banking, and ongoing compliance requirements.
               </p>
@@ -389,7 +389,7 @@ export function ServicedOfficePage() {
           <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6 text-center">
             Where Can Your Business Set Up a Virtual Office?
           </h2>
-          
+
           <div className="max-w-4xl mx-auto">
             {/* Placeholder for chart - you can add actual chart data here */}
             <div className="bg-white rounded-xl p-8 shadow-lg border border-[var(--color-border)] text-center">
@@ -453,9 +453,9 @@ export function ServicedOfficePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left: Image */}
             <div className="relative">
-              <ImageWithFallback 
-                src="figma:asset/e908ef0a99137e019917389c38ccca2f1c5b57ac.png" 
-                alt="Process" 
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+                alt="Process"
                 className="w-full h-auto rounded-xl shadow-lg"
               />
             </div>
@@ -465,7 +465,7 @@ export function ServicedOfficePage() {
               <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6">
                 How It Works
               </h2>
-              
+
               <div className="space-y-6">
                 {processSteps.map((step, index) => (
                   <div key={index} className="bg-white rounded-xl p-6 shadow-md border border-[var(--color-border)]">
@@ -492,16 +492,16 @@ export function ServicedOfficePage() {
             <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6">
               Important Notes
             </h2>
-            
+
             <div className="bg-yellow-50 rounded-xl p-8 shadow-lg border-2 border-yellow-200">
               <p className="text-[#2C2C2C] text-base lg:text-lg mb-4">
                 A Virtual Office does not replace actual business operations where physical presence is legally required.
               </p>
-              
+
               <p className="text-[#2C2C2C] text-base lg:text-lg mb-2">
                 Certain banks may request additional elements, such as:
               </p>
-              
+
               <div className="space-y-2 ml-4">
                 <div className="flex items-start gap-3">
                   <span className="text-[var(--color-primary)] mt-1">-</span>
@@ -581,7 +581,7 @@ export function ServicedOfficePage() {
                   <tr className="bg-gray-50">
                     <td className="px-6 py-4 font-semibold text-[#2C2C2C] text-base">Action</td>
                     <td className="px-6 py-4">
-                      <button 
+                      <button
                         onClick={() => navigate('/contact')}
                         className="text-[var(--color-primary)] font-semibold hover:underline"
                       >
@@ -589,7 +589,7 @@ export function ServicedOfficePage() {
                       </button>
                     </td>
                     <td className="px-6 py-4">
-                      <button 
+                      <button
                         onClick={() => navigate('/contact')}
                         className="text-[var(--color-primary)] font-semibold hover:underline"
                       >
@@ -597,7 +597,7 @@ export function ServicedOfficePage() {
                       </button>
                     </td>
                     <td className="px-6 py-4">
-                      <button 
+                      <button
                         onClick={() => navigate('/contact')}
                         className="text-[var(--color-primary)] font-semibold hover:underline"
                       >
@@ -640,7 +640,7 @@ export function ServicedOfficePage() {
                     <p className="text-[#6C757D] text-sm mb-1">Best For:</p>
                     <p className="text-[#2C2C2C] font-semibold">{plan.features.bestFor}</p>
                   </div>
-                  <button 
+                  <button
                     onClick={() => navigate('/contact')}
                     className="w-full bg-[var(--color-primary)] text-white py-3 rounded-xl font-semibold hover:opacity-90 transition-all"
                   >
@@ -652,7 +652,7 @@ export function ServicedOfficePage() {
           </div>
 
           <div className="text-center">
-            <button 
+            <button
               onClick={() => navigate('/contact')}
               className="bg-[var(--color-primary)] text-white px-10 py-4 rounded-xl hover:opacity-90 transition-all duration-300 font-semibold text-lg shadow-lg"
             >
@@ -668,9 +668,9 @@ export function ServicedOfficePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left: Image */}
             <div className="relative">
-              <ImageWithFallback 
-                src="figma:asset/db05ad49ac97f0023769098466e0677555e3c0ac.png" 
-                alt="Why File With IBrxer" 
+              <ImageWithFallback
+                src="https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+                alt="Why File With IBrxer"
                 className="w-full h-auto rounded-xl shadow-lg"
               />
               <p className="text-sm text-[#6C757D] mt-2">Why File With IBrxer?</p>
@@ -681,7 +681,7 @@ export function ServicedOfficePage() {
               <h2 className="text-[#2C2C2C] font-bold text-2xl md:text-4xl mb-6">
                 What's Next After Virtual Office Setup?
               </h2>
-              
+
               <p className="text-[#6C757D] text-base lg:text-lg mb-6">
                 Depending on your business needs, you may consider the following next steps:
               </p>
@@ -694,8 +694,8 @@ export function ServicedOfficePage() {
 
               <div className="space-y-4">
                 {nextSteps.map((step, index) => (
-                  <div 
-                    key={index} 
+                  <div
+                    key={index}
                     className="flex items-start gap-4 p-4 bg-gradient-to-r from-blue-50 to-transparent rounded-xl border border-blue-100 hover:border-blue-300 transition-all cursor-pointer"
                     onClick={() => navigate('/all-services')}
                   >
@@ -717,7 +717,7 @@ export function ServicedOfficePage() {
       <section className="py-[30px] lg:py-24 bg-gradient-to-br from-[var(--color-primary)] via-red-600 to-orange-600 text-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-white/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-black/20 rounded-full blur-3xl"></div>
-        
+
         <div className="max-w-[1400px] mx-auto px-6 lg:px-8 relative text-center">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6">
             <Building2 className="w-10 h-10 text-white" />
@@ -726,8 +726,8 @@ export function ServicedOfficePage() {
           <h2 className="text-white font-bold text-xl md:text-3xl mb-6">
             Get compliant without overhead costs
           </h2>
-          
-          <button 
+
+          <button
             onClick={() => navigate('/contact')}
             className="bg-white text-[var(--color-primary)] px-12 py-5 rounded-xl hover:bg-gray-100 transition-all duration-300 font-bold text-xl shadow-2xl inline-flex items-center gap-3"
           >
